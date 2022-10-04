@@ -1,1 +1,25 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-3">
+      Gráfica
+      <app-dona [labels] = "labels1"
+                [title]="title1">
+      </app-dona>
+    </div>
+    <div class="col-3">
+        Gráfica
+        <app-dona title = "Test"
+                  [doughnutChartData] = "datasets1"
+                  >
+        </app-dona>
+      </div>
+</div>
+<div class="row">
+    <div class="col-3">
+      Gráfica
+      <app-dona></app-dona>
+    </div>
+    <div class="col-3">
+        Gráfica
+        <app-dona></app-dona>
+      </div>
+</div>
